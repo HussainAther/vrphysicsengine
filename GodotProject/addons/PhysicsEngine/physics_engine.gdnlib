@@ -1,0 +1,10 @@
+[entry]
+OSX.64="res://addons/PhysicsEngine/libPhysicsEngine.dylib"
+Linux.64="res://addons/PhysicsEngine/libPhysicsEngine.so"
+Windows.64="res://addons/PhysicsEngine/PhysicsEngineDLL.dll"
+
+[dependencies]
+OSX.64=[ "godot" ]
+Linux.64=[ "godot" ]
+Windows.64=[ "godot" ]
+
