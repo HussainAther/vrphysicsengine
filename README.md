@@ -4,13 +4,14 @@ Welcome to the **VR Educational Physics Engine**! This engine is designed specif
 
 ## **Overview**
 
-The **VR Educational Physics Engine** provides a flexible framework for creating physics-based learning experiences. With built-in features like **node-based scripting**, **pre-configured physics modules**, and **multi-platform support**, this engine allows developers to focus on creating high-quality, interactive content without needing to build each component from scratch.
+The **VR Educational Physics Engine** provides a flexible framework for creating physics-based learning experiences. With built-in features like **AI-driven physics optimizations**, **Task Graph-powered multi-threading**, and **multi-platform support**, this engine allows developers to focus on creating high-quality, interactive content without needing to build each component from scratch.
 
 ### **Features**
 
+- **AI-Driven Adaptive Physics**: AI dynamically adjusts object weight, gravity, and force based on user behavior, enhancing real-time learning experiences.
+- **Task Graph-Optimized Performance**: AI-powered physics computations run asynchronously, improving responsiveness in VR.
 - **Real-Time Physics Simulation**: Core modules for gravity, force application, collision detection, and more, making it easy to simulate real-world physics in VR.
 - **Modular Design**: Pre-built modules for common physics concepts (e.g., projectile motion, harmonic motion) that can be easily customized and expanded.
-- **Node-Based Visual Scripting**: Designed to support visual scripting for interactions, making it accessible for non-technical team members.
 - **Cross-Platform Support**: Optimized for VR, desktop, and mobile, ensuring that simulations run smoothly on various devices.
 - **Learning Analytics**: Track player interactions and progress to provide feedback and insights on learning outcomes.
 
@@ -70,11 +71,17 @@ VR-Educational-Physics-Engine
 
 ## **Features and Modules**
 
-### **Core Physics Modules**
+### **Core AI & Physics Modules**
+   - **AI Adaptive Physics**: AI modifies object properties in real time based on player actions.
    - **Gravity Simulation**: Apply gravity to objects with adjustable intensity and direction.
    - **Force Application**: Add forces to objects (e.g., pushing, pulling) and see the impact on velocity and acceleration.
    - **Collision Detection**: Realistic collision detection and response for interacting objects.
    - **Projectile Motion**: Simulate projectile paths with customizable launch angles, speeds, and environmental factors.
+
+### **Task Graph-Enhanced Performance**
+   - **Multi-Threaded AI Processing**: Uses Unreal Engine’s **Task Graph** to distribute AI-driven physics calculations across multiple threads.
+   - **Optimized VR Physics**: AI-driven predictive adjustments improve accuracy and response times.
+   - **Vulkan-Accelerated Physics Rendering**: Uses Vulkan for GPU-accelerated simulations, reducing latency in VR.
 
 ### **Educational Tools**
    - **Node-Based Scripting**: Easily create interactive experiences by connecting physics nodes to create specific learning scenarios.
